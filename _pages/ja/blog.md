@@ -1,7 +1,8 @@
 ---
 layout: blog
+lang: ja
 title: Blog
-permalink: /blog/
+permalink: /ja/blog/
 ---
 
 <div class="posts">

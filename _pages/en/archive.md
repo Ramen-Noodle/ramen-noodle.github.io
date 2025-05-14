@@ -1,6 +1,7 @@
 ---
 layout: page
-permalink: /archive/
+lang: en
+permalink: /en/archive/
 title: Posts Archive
 ---
 

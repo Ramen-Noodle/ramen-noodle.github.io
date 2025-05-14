@@ -1,6 +1,7 @@
 ---
 layout: page
-permalink: /categories/
+lang: ja
+permalink: /ja/categories/
 title: Categories
 ---
 

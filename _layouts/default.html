@@ -15,6 +15,13 @@
   </head>
 
   <body>
+    <div id="language">
+      {% if page.lang == 'en' %}
+        <a href="{{ page.url | replace_first: '/en', '/ja' }}">日本語</a>
+      {% elsif page.lang == 'ja' %}
+        <a href="{{ page.url | replace_first: '/ja', '/en' }}">English</a>
+      {% endif %}
+    </div>
     <div id="bar"></div>
     <div class="wrapper-container">
       <div class="wrapper-masthead">
@@ -28,10 +35,10 @@
             </div>
 
             <nav>
-              <a href="{{ site.baseurl }}/">Home</a>
-              <a href="{{ site.baseurl }}/blog">Blog</a>
-              <a href="{{ site.baseurl }}/search">Search</a>
-              <a href="{{ site.baseurl }}/archive">Archive</a>
+              <a href="{{ site.baseurl }}/{{page.lang}}/">Home</a>
+              <a href="{{ site.baseurl }}/{{page.lang}}/blog">Blog</a>
+              <a href="{{ site.baseurl }}/{{page.lang}}/search">Search</a>
+              <a href="{{ site.baseurl }}/{{page.lang}}/archive">Archive</a>
             </nav>
           </header>
         </div>

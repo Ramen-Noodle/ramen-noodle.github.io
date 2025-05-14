@@ -1,8 +1,9 @@
 ---
 layout: page
+lang: en
 title: Home
 heading: Welcome!
-permalink: /
+permalink: /en/
 ---
 
 My name is Christopher Lee, and I'm an incoming graduate student at NC State University pursuing a Master's in Computer Science.
