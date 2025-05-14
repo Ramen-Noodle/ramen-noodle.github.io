@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 lang: ja
 permalink: /ja/archive
 title: 投稿アーカイブ
@@ -8,8 +8,9 @@ title: 投稿アーカイブ
 
 <div id="archives">
   <section id="archive">
-     <h3>最近の投稿</h3>
-      {%for post in site.posts %}
+    <h3>最近の投稿</h3>
+      {% assign filtered_posts = site.posts | where: "lang", page.lang %}
+      {%for post in filtered_posts %}
       {% unless post.next %}
       <ul class="this">
           {% else %}
@@ -20,14 +21,14 @@ title: 投稿アーカイブ
           {% if year != nyear %}
       </ul>
       <h2 style="text-align:left;">{{ post.date | date: '%Y' }}</h2>
-      <ul class="past">
           {% endif %}
+      <ul class="past">
           {% if month != nmonth %}
           <h3 style="text-align:left;">{{ post.date | date: '%B %Y' }}</h3>
           {% endif %}
           {% endunless %}
           <p><b><a href="{{ site.baseurl }}{{ post.url }}">{% if post.title and post.title != "" %}{{post.title}}{% else %}{{post.excerpt |strip_html}}{%endif%}</a></b> - {% if post.date and post.date != "" %}{{ post.date | date: "%e %B %Y" }}{%endif%}</p>
-          {% endfor %}
+        {% endfor %}
       </ul>
     <h3>古い投稿</h3>
   </section>
