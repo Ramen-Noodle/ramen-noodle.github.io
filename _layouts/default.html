@@ -17,9 +17,9 @@
   <body>
     <div id="language">
       {% if page.lang == 'en' %}
-        <a href="{{ page.url | replace_first: '/en', '/ja' }}">日本語</a>
+        <a class="lang-link" href="{{ page.url | replace_first: '/en', '/ja' }}">日本語</a>
       {% elsif page.lang == 'ja' %}
-        <a href="{{ page.url | replace_first: '/ja', '/en' }}">English</a>
+        <a class="lang-link" href="{{ page.url | replace_first: '/ja', '/en' }}">English</a>
       {% endif %}
     </div>
     <div id="bar"></div>
@@ -33,13 +33,21 @@
               <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
               <p class="site-description">{{ site.description }}</p> 
             </div>
-
+            {% if page.lang == 'en' %}
             <nav>
               <a href="{{ site.baseurl }}/{{page.lang}}/">Home</a>
               <a href="{{ site.baseurl }}/{{page.lang}}/blog">Blog</a>
               <a href="{{ site.baseurl }}/{{page.lang}}/search">Search</a>
               <a href="{{ site.baseurl }}/{{page.lang}}/archive">Archive</a>
             </nav>
+            {% elsif page.lang == 'ja' %}
+            <nav>
+              <a href="{{ site.baseurl }}/{{page.lang}}/">ホーム</a>
+              <a href="{{ site.baseurl }}/{{page.lang}}/blog">ブログ</a>
+              <a href="{{ site.baseurl }}/{{page.lang}}/search">検索</a>
+              <a href="{{ site.baseurl }}/{{page.lang}}/archive">アーカイブ</a>
+            </nav>
+            {% endif %}
           </header>
         </div>
       </div>

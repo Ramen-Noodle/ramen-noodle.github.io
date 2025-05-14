@@ -6,7 +6,7 @@ permalink: /en/search/
 ---
 
 <div id="search-container">
-    <input type="text" id="search-input" placeholder="Search through the blog posts...">
+    <input type="text" id="search-input" placeholder="Search through blog posts...">
     <ul id="results-container"></ul>
 </div>
 

@@ -30,6 +30,10 @@ body {
   height: 100%;
 }
 
+ul {
+  list-style-position: outside;
+}
+
 .container {
   margin: 0 auto;
   max-width: 740px;
@@ -148,7 +152,7 @@ table tr td :last-child {
   border-radius: 4px;
   box-sizing: border-box;
   font-size: 18px;
-  background-color: #fff3ff;
+  background-color: #ebebeb;
 }
 
 .share-box {
@@ -453,6 +457,10 @@ body:after {
   top: 5px;
   right: 5px;
   z-index: 1001;
+}
+
+.lang-link {
+  color: #222;
 }
 
 .post h1{

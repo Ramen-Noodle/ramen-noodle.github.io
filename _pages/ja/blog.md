@@ -1,7 +1,7 @@
 ---
 layout: blog
 lang: ja
-title: Blog
+title: ブログ
 permalink: /ja/blog/
 ---
 
