@@ -9,8 +9,12 @@ My name is Christopher Lee, and I'm an incoming graduate student at NC State Uni
 
 I've particularly come to enjoy Web Development through my undergraduate experience, and as a graduate student I hope to delve into the worlds of AI and Machine Learning, and possibly even some Game Development.
 
-Outside of programming, I have a strong interest in music and playing instruments, linguistics, and, of all things, Lego. You may see a blog post about one of these interests from time to time!
+Outside of programming, I have a strong interest in music and playing instruments, linguistics, and travel. You may see a blog post about one of these interests from time to time!
 
-Thanks for checking out my website! Below you can see som of the experience I've had, as well as some projects that I've worked on. Of course, I will be adding to these more in the future!
+Thanks for checking out my website! Here you can see some of the experience I've had, as well as some projects that I've worked on. Of course, I will be adding to these more in the future!
 
-## Experience and Projects
+## Experience
+
+- Associate Project Coordinator, Part Time - [GlobalXperts](https://www.globalxperts.net/), Summer 2022
+- Research Technician, Intern - [RENCI](https://renci.org/), [iRods](https://irods.org/), Summer 2024
+- Software Engineer, Part Time Remote - [DataAnnotation](https://www.dataannotation.tech/generalist?worker_source=G&utm_source=google&utm_medium=display&utm_campaign=20429741244&utm_adgroup=153008825238&utm_content=668966805731&gad_source=1&gad_campaignid=20429741244&gbraid=0AAAAAqBNCsVbePfEDToIBaWNpFk53EFUy&gclid=CjwKCAjw_pDBBhBMEiwAmY02NiUKxnLZZ3d0EHTSImrwqryV8_2rdSkCBj7vmBZbfuG1QfrxKsx83hoCrooQAvD_BwE), Since April 2024
