@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 lang: en
 permalink: /en/archive
 title: Post Archive

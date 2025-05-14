@@ -25,8 +25,12 @@ layout: default
           <a href="#" style="cursor: auto">{{category}}</a>
           {% unless forloop.last %}&nbsp;{% endunless %}
         {% endfor %}
-        </div>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </div>
+      {% if page.lang == 'en' %}
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      {% else %}
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">もっと見る</a>
+      {% endif %}  
     </article>
   {% endfor %}
 </div>
