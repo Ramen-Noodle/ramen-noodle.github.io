@@ -2,7 +2,7 @@
 layout: page
 lang: en
 title: Search
-permalink: /en/search/
+permalink: /en/search
 ---
 
 <div id="search-container">

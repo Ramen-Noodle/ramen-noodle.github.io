@@ -2,7 +2,7 @@
 layout: blog
 lang: en
 title: Blog
-permalink: /en/blog/
+permalink: /en/blog
 ---
 
 <div class="posts">

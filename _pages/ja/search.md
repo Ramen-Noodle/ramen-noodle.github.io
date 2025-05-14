@@ -2,7 +2,7 @@
 layout: page
 lang: ja
 title: 検索
-permalink: /ja/search/
+permalink: /ja/search
 ---
 
 <div id="search-container">

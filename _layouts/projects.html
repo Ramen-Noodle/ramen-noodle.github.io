@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="posts">
+  {% for project in site.projects %}
+    <article class="post">
+      <a href="{{ project.project_url }}" target="_blank" rel="noreferrer">
+        <h1>{{ project.title }}</h1>
+      </a>
+      <p>{{ project.content }}</p>
+      <div class="post-tags">
+      {% if project %}
+        {% assign categories = project.categories %}
+      {% else %}
+        {% assign categories = page.categories %}
+      {% endif %}
+      {% for category in categories %}
+        <a href="#" style="cursor: auto">{{category}}</a>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+      </div>
+    </article>
+  {% endfor %}
+</div>

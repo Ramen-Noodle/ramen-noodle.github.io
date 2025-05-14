@@ -1,8 +1,8 @@
 ---
 layout: page
 lang: en
-permalink: /en/archive/
-title: Posts Archive
+permalink: /en/archive
+title: Post Archive
 ---
 
 

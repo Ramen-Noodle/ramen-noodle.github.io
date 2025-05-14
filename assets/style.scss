@@ -275,6 +275,8 @@ p > img {
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
+  display: inline-grid;
+  width: 100%;
 
   @include mobile {
     text-align: center;
@@ -337,7 +339,7 @@ p > img {
 }
 
 nav {
-  float: right;
+  float: left;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
@@ -350,9 +352,9 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    margin-right: 20px;
     color: $darkGray;
-    text-align: right;
+    text-align: left;
     font-weight: 300;
     letter-spacing: 1px;
 
@@ -453,10 +455,14 @@ body:after {
 }
 
 #language {
-  position: fixed;
-  top: 5px;
-  right: 5px;
-  z-index: 1001;
+  float: right;
+  a {
+    font-family: $helveticaNeue;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: left;
+  }
 }
 
 .lang-link {

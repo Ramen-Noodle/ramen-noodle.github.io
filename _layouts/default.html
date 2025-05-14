@@ -15,39 +15,41 @@
   </head>
 
   <body>
-    <div id="language">
-      {% if page.lang == 'en' %}
-        <a class="lang-link" href="{{ page.url | replace_first: '/en', '/ja' }}">日本語</a>
-      {% elsif page.lang == 'ja' %}
-        <a class="lang-link" href="{{ page.url | replace_first: '/ja', '/en' }}">English</a>
-      {% endif %}
-    </div>
     <div id="bar"></div>
     <div class="wrapper-container">
       <div class="wrapper-masthead">
         <div class="container">
           <header class="masthead clearfix">
-            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a>
+            <div>
+              <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a>
 
-            <div class="site-info">
-              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-              <p class="site-description">{{ site.description }}</p> 
+              <div class="site-info">
+                <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+                <p class="site-description">{{ site.description }}</p> 
+              </div>
+
+              <div id="language">
+                {% if page.lang == 'en' %}
+                  <a class="lang-link" href="{{ page.url | replace_first: '/en', '/ja' }}">日本語</a>
+                {% elsif page.lang == 'ja' %}
+                  <a class="lang-link" href="{{ page.url | replace_first: '/ja', '/en' }}">English</a>
+                {% endif %}
+              </div>
             </div>
-            {% if page.lang == 'en' %}
+            {% assign lang = page.lang %}
+            {% assign base = site.baseurl | append: "/" | append: lang %}
+            {% assign slugs = ",projects,blog,search,archive" | split: "," %}
+            
             <nav>
-              <a href="{{ site.baseurl }}/{{page.lang}}/">Home</a>
-              <a href="{{ site.baseurl }}/{{page.lang}}/blog">Blog</a>
-              <a href="{{ site.baseurl }}/{{page.lang}}/search">Search</a>
-              <a href="{{ site.baseurl }}/{{page.lang}}/archive">Archive</a>
+
+              {% for slug in slugs offset:0 %}
+                {% assign path = base | append: "/" | append: slug %}
+                {% assign target = site.html_pages | where: "permalink", path | first %}
+                {% if target %}
+                  <a href="{{ path }}">{{ target.title }}</a>
+                {% endif %}
+              {% endfor %}
             </nav>
-            {% elsif page.lang == 'ja' %}
-            <nav>
-              <a href="{{ site.baseurl }}/{{page.lang}}/">ホーム</a>
-              <a href="{{ site.baseurl }}/{{page.lang}}/blog">ブログ</a>
-              <a href="{{ site.baseurl }}/{{page.lang}}/search">検索</a>
-              <a href="{{ site.baseurl }}/{{page.lang}}/archive">アーカイブ</a>
-            </nav>
-            {% endif %}
           </header>
         </div>
       </div>

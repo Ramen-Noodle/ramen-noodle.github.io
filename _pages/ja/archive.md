@@ -1,7 +1,7 @@
 ---
 layout: page
 lang: ja
-permalink: /ja/archive/
+permalink: /ja/archive
 title: 投稿アーカイブ
 ---
 

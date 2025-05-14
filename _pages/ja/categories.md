@@ -1,7 +1,7 @@
 ---
 layout: page
 lang: ja
-permalink: /ja/categories/
+permalink: /ja/categories
 title: カテゴリー
 ---
 

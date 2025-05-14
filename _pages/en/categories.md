@@ -1,7 +1,7 @@
 ---
 layout: page
 lang: en
-permalink: /en/categories/
+permalink: /en/categories
 title: Categories
 ---
 
