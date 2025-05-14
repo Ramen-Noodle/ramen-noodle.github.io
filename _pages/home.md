@@ -15,6 +15,6 @@ Thanks for checking out my website! Here you can see some of the experience I've
 
 ## Experience
 
-- Associate Project Coordinator, Part Time - [GlobalXperts](https://www.globalxperts.net/), Summer 2022
-- Research Technician, Intern - [RENCI](https://renci.org/), [iRods](https://irods.org/), Summer 2024
-- Software Engineer, Part Time Remote - [DataAnnotation](https://www.dataannotation.tech/generalist?worker_source=G&utm_source=google&utm_medium=display&utm_campaign=20429741244&utm_adgroup=153008825238&utm_content=668966805731&gad_source=1&gad_campaignid=20429741244&gbraid=0AAAAAqBNCsVbePfEDToIBaWNpFk53EFUy&gclid=CjwKCAjw_pDBBhBMEiwAmY02NiUKxnLZZ3d0EHTSImrwqryV8_2rdSkCBj7vmBZbfuG1QfrxKsx83hoCrooQAvD_BwE), Since April 2024
+- Associate Project Coordinator, Part Time - [GlobalXperts](https://www.globalxperts.net/){:target="_blank"}, Summer 2022
+- Research Technician, Intern - [RENCI](https://renci.org/), [iRods](https://irods.org/){:target="_blank"}, Summer 2024
+- Software Engineer, Part Time Remote - [DataAnnotation](https://www.dataannotation.tech/generalist?worker_source=G&utm_source=google&utm_medium=display&utm_campaign=20429741244&utm_adgroup=153008825238&utm_content=668966805731&gad_source=1&gad_campaignid=20429741244&gbraid=0AAAAAqBNCsVbePfEDToIBaWNpFk53EFUy&gclid=CjwKCAjw_pDBBhBMEiwAmY02NiUKxnLZZ3d0EHTSImrwqryV8_2rdSkCBj7vmBZbfuG1QfrxKsx83hoCrooQAvD_BwE){:target="_blank"}, Since April 2024
