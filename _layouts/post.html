@@ -6,7 +6,25 @@ layout: default
   <h1>{{ page.title }}</h1>
 
   <div>
-    <p class="author_title">{{site.author}}  ·  {{ page.date | date: "%B %e, %Y" }}</p>
+    {% assign month_number = page.date | date: "%-m" | minus: 1 %}
+
+    {% if page.lang == "en" %}
+      {% assign months = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
+    {% else %}
+      {% assign months = "1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月" | split: "," %}
+    {% endif %}
+
+    {% assign month_name = months[month_number] %}
+    {% if page.lang == "en" %}
+    <p class="author_title">
+      {{ site.author }}  ·  {{ month_name }} {{ page.date | date: "%-d, " }}{{ page.date | date: "%Y" }}
+    </p>
+    {% else %}
+    <p class="author_title">
+      {{ site.author }}  ·  {{ page.date | date: "%Y年" }}{{ month_name }}{{ page.date | date: "%-d日" }}
+    </p>
+    {% endif %}
+
     {% if page.last_modified_at %}
     <p class="author_title" datetime="{{ page.last_modified_at | date_to_xmlschema }}">(Updated: {{ page.last_modified_at | date: "%b %-d, %Y" }})</p>
     {% endif %}
@@ -17,7 +35,7 @@ layout: default
         {% assign categories = page.categories %}
       {% endif %}
       {% for category in categories %}
-        <a href="{{site.baseurl}}/en/categories/#{{category|slugize}}">{{category}}</a>
+        <a href="{{site.baseurl}}/{{page.lang}}/categories/#{{category|slugize}}">{{category}}</a>
         {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
     </div>

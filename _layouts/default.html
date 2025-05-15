@@ -38,15 +38,16 @@
             </div>
             {% assign lang = page.lang %}
             {% assign base = site.baseurl | append: "/" | append: lang %}
-            {% assign slugs = ",projects,blog,search,archive" | split: "," %}
+            {% assign slugs = ",projects,blog,search" | split: "," %}
             
             <nav>
-
               {% for slug in slugs offset:0 %}
                 {% assign path = base | append: "/" | append: slug %}
                 {% assign target = site.html_pages | where: "permalink", path | first %}
                 {% if target %}
-                  <a href="{{ path }}">{{ target.title }}</a>
+                  <a class="nav-item" href="{{ path }}">
+                    <p>{{ target.title }}</p>
+                  </a>
                 {% endif %}
               {% endfor %}
             </nav>

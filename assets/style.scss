@@ -273,7 +273,6 @@ p > img {
 }
 
 .masthead {
-  padding: 20px 0;
   border-bottom: 1px solid $lightGray;
   display: inline-grid;
   width: 100%;
@@ -343,6 +342,8 @@ nav {
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
+  display: flex;
+  justify-content: space-around;
 
   @include mobile {
     float: none;
@@ -362,6 +363,24 @@ nav {
       margin: 0 10px;
       color: $blue;
     }
+  }
+}
+
+.nav-item {
+	flex: 1;                 /* each item takes equal space */
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	transition: background-color 0.2s ease;
+  margin: 0;
+	/* optional: make the entire nav row height fixed */
+	/* height: 60px; */
+}
+
+.nav-item:hover {
+	background-color: #a61515;
+  p {
+    color: white;
   }
 }
 
@@ -462,6 +481,14 @@ body:after {
     font-size: 18px;
     letter-spacing: 1px;
     text-align: left;
+  }
+
+  @include mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 3px;
+    background-color: white;
   }
 }
 

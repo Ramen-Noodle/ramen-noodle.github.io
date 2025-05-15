@@ -3,15 +3,31 @@ layout: default
 ---
 
 <div class="posts">
+
+  {% if page.lang == "en" %}
+    {% assign months = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
+  {% else %}
+    {% assign months = "1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月" | split: "," %}
+  {% endif %}
+
   {% assign filtered_posts = site.posts | where: "lang", page.lang %}
   {% for post in filtered_posts %}
+    {% assign month_number = post.date | date: "%-m" | minus: 1 %}
+    {% assign month_name = months[month_number] %}
     <article class="post">
       <a href="{{ site.baseurl }}{{ post.url }}">
         <h1>{{ post.title }}</h1>
 
+        {% if page.lang == 'en' %}
         <div>
           <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
         </div>
+        {% else %}
+        <div>
+          <p class="post_date">{{ post.date | date: "%Y年" }}{{ month_name }}{{ post.date | date: "%-d日" }}</p>
+        </div>
+        {% endif %}  
+
       </a>
       <div class="entry">
         {{ post.excerpt }}
