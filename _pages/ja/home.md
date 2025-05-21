@@ -17,5 +17,5 @@ permalink: /ja/
 ## 経験
 
 - アソシエイト・プロジェクトコーディネーター（パートタイム）- [GlobalXperts](https://www.globalxperts.net/){:target="_blank"}、2022年夏
-- リサーチ・テクニシャン（インターン）- [RENCI](https://renci.org/)、[iRods](https://irods.org/){:target="_blank"}、2024年夏
+- ソフトウェアエンジニア（インターン）- [RENCI](https://renci.org/)、[iRods](https://irods.org/){:target="_blank"}、2024年夏
 - ソフトウェアエンジニア（パートタイム、リモート）- [DataAnnotation](https://www.dataannotation.tech/generalist?worker_source=G&utm_source=google&utm_medium=display&utm_campaign=20429741244&utm_adgroup=153008825238&utm_content=668966805731&gad_source=1&gad_campaignid=20429741244&gbraid=0AAAAAqBNCsVbePfEDToIBaWNpFk53EFUy&gclid=CjwKCAjw_pDBBhBMEiwAmY02NiUKxnLZZ3d0EHTSImrwqryV8_2rdSkCBj7vmBZbfuG1QfrxKsx83hoCrooQAvD_BwE){:target="_blank"}、2024年4月から
