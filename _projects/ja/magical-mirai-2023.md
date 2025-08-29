@@ -1,6 +1,6 @@
 ---
 title: マジカルミライ　2023
-project_url: https://github.com/Ramen-Noodle/Wolfpack-Mirai-2023
+project_url: https://azn-abel.github.io/mikus-neon-world/
 categories: [Webアプリ,Node.js]
 ---
 
