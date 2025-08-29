@@ -1,6 +1,6 @@
 ---
 title: マジカルミライ　2025
-project_url: https://github.com/Ramen-Noodle/Wolfpack-Mirai-2023
+project_url: https://magical-mirai-2025.pages.dev/
 categories: [Webアプリ,React,Three.js]
 ---
 
