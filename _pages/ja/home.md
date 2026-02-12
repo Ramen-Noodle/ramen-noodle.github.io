@@ -16,6 +16,7 @@ permalink: /ja/
 
 ## 経験
 
-- アソシエイト・プロジェクトコーディネーター（パートタイム）- [GlobalXperts](https://www.globalxperts.net/){:target="_blank"}、2022年夏
+-  研究助手 - [ランプ合同医用生体工学部](https://bme.unc.edu/), [グリーンバウム研究所](https://tarheels.live/GreenbaumLab/), 2025年11月から
 - ソフトウェアエンジニア（インターン）- [RENCI](https://renci.org/)、[iRods](https://irods.org/){:target="_blank"}、2024年夏
-- ソフトウェアエンジニア（パートタイム、リモート）- [DataAnnotation](https://www.dataannotation.tech/generalist?worker_source=G&utm_source=google&utm_medium=display&utm_campaign=20429741244&utm_adgroup=153008825238&utm_content=668966805731&gad_source=1&gad_campaignid=20429741244&gbraid=0AAAAAqBNCsVbePfEDToIBaWNpFk53EFUy&gclid=CjwKCAjw_pDBBhBMEiwAmY02NiUKxnLZZ3d0EHTSImrwqryV8_2rdSkCBj7vmBZbfuG1QfrxKsx83hoCrooQAvD_BwE){:target="_blank"}、2024年4月から
+- ソフトウェアエンジニア（パートタイム、リモート）- [DataAnnotation](https://www.dataannotation.tech/generalist?worker_source=G&utm_source=google&utm_medium=display&utm_campaign=20429741244&utm_adgroup=153008825238&utm_content=668966805731&gad_source=1&gad_campaignid=20429741244&gbraid=0AAAAAqBNCsVbePfEDToIBaWNpFk53EFUy&gclid=CjwKCAjw_pDBBhBMEiwAmY02NiUKxnLZZ3d0EHTSImrwqryV8_2rdSkCBj7vmBZbfuG1QfrxKsx83hoCrooQAvD_BwE){:target="_blank"}、2024年4月から2025年8月まで
+- アソシエイト・プロジェクトコーディネーター（パートタイム）- [GlobalXperts](https://www.globalxperts.net/){:target="_blank"}、2022年夏
