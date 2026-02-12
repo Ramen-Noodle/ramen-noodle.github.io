@@ -6,7 +6,7 @@ heading: Welcome!
 permalink: /en/
 ---
 
-My name is Christopher Lee, and I'm an incoming graduate student at NC State University pursuing a Master's in Computer Science.
+My name is Christopher Lee, and I'm a graduate student at NC State University pursuing a Master's in Computer Science.
 
 I've particularly come to enjoy Web Development through my undergraduate experience, and as a graduate student I hope to delve into the worlds of AI and Machine Learning, and possibly even some Game Development.
 
